@@ -1,0 +1,14 @@
+{
+  "routes": [
+    {
+      "src": "/",
+      "methods": ["POST"],
+      "dest": "/api/index"
+    },
+    {
+      "src": "/index",
+      "methods": ["POST"],
+      "dest": "/api/index"
+    }
+  ]
+}
